@@ -19,6 +19,7 @@ img.site-image.logo {
     width: 100px;
     height: 100px;
 }
+
 .button_1 {
     text-align: end;
     padding: 30px 0px 30px 0px;
@@ -47,9 +48,10 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     box-shadow: 0px 0px 5px 1px #0000004d
 }
 .image_1 {
-    padding: 30px 0px;
+    padding: 0px 0px;
 }
-image.image {
+img, svg {
+    vertical-align: middle;
     width: 100%;
     height: 100%;
 }
@@ -145,7 +147,7 @@ ul.kiki {
     padding: 15px 0px;
 }
 ul.lkl {
-    padding: 0px 0px;
+    padding: 0px 15px;
 }
 .content_second{
               padding: 20px 0px 0px 0px;
@@ -239,7 +241,7 @@ color: white;
 }
 
 .panel {
-padding: 0px 30px;
+padding: 10px 30px;
 display: none;
 overflow: hidden;
 background-color: white;
@@ -267,7 +269,6 @@ border-top: none;
     width: 100%;
     height: auto;
     padding: 10px 0px 30px 0px;
-    border-top: 5px solid #FFF;
     color:#FFF;
     
 }
@@ -281,7 +282,7 @@ border-top: none;
 
 .button_footer {
     text-align: center;
-    padding: 30px 40px 60px 0px;
+    padding: 10px 40px 60px 0px;
 }
 .btn_footer {
     padding: 10px 70px 10px 70px;
@@ -300,7 +301,7 @@ border-top: none;
 }
 
 .button_4 {
-    padding: 10px 0px 20px 0px; 
+    padding: 30px 0px 20px 0px; 
     text-align: left;
 }
 .button_4 a:hover {
@@ -388,7 +389,10 @@ label.content-dark_span-span {
         background-color: #fff;
         color: black    ;
     }
-   
+    .image_1 {
+        padding: 10px 0px;
+        margin-top: 20px;
+    }
     .content h1 {
         padding:    0px 0px 20px 0px;
         text-align: LEFT;
@@ -503,10 +507,19 @@ label.content-dark_span-span {
         margin-top: 10px;
         margin-bottom: 1rem;
     }
-
+    .section h4{
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        text-align: center;
+        padding: 0px 0px 30px 0px;
+        color: #fff;
+    
+    
+    }
     .button_footer {
         text-align: center;
-        padding: 30px 0px 30px 0px;
+        padding: 0px 0px 30px 0px;
     }
     .main_section {
         padding: 40px 15px 30px 15px;
